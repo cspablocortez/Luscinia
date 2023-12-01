@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #a9ccbd;
+    font-family: 'Courier Prime', monospace;
+    color: #4e5e57;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 4em;
+}
+
+.container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.paper {
+    height: 400px;
+    width: 400px;
+    background-color: #fcfff0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.paper img {
+    height: 100%;
+    width: 100%;
+}
+
+#menuBtn {
+    border: none;
+    background: none;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 2rem;
+    color: #4e5e57;
+}
+
+#menuBtn:hover {
+    cursor: pointer;
+}
+
