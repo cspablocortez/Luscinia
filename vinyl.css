@@ -87,7 +87,7 @@ body {
 }
 
 .album-art {
-  background: #fff url("https://preview.redd.it/fifty-fifty-the-1st-single-album-the-beginning-cupid-cover-v0-ujxvn57yg5ka1.jpg?auto=webp&s=464bef37a60cd8b6b2d0c607ecea65be3c4e85b8") center/cover no-repeat;
+  background: #fff url("https://squarecatvinyl.com/cdn/shop/files/Screenshot_2023-08-11_at_11.17.55_AM_022b6110_thumbnail_1024.webp?v=1696525110") center/cover no-repeat;
   height: 315px;
   position: relative;
   width: 315px;
@@ -101,7 +101,7 @@ body {
   -webkit-transition: all 500ms;
   -moz-transition: all 500ms;
   transition: all 500ms;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/vinyl.png"), url("https://preview.redd.it/fifty-fifty-the-1st-single-album-the-beginning-cupid-cover-v0-ujxvn57yg5ka1.jpg?auto=webp&s=464bef37a60cd8b6b2d0c607ecea65be3c4e85b8");
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/vinyl.png"), url("https://squarecatvinyl.com/cdn/shop/files/Screenshot_2023-08-11_at_11.17.55_AM_022b6110_thumbnail_1024.webp?v=1696525110");
   background-position: center, center;
   background-size: cover, 40% auto;
   background-repeat: no-repeat;
