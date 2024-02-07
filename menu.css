@@ -9,24 +9,38 @@
 }
 
 .navbar button {
-background-color: inherit;
-color: white;
-border: none;
-padding: 14px 16px;
-font-size: 16px;
-cursor: pointer;
-}
+    background-color: inherit;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    }
+    
+    .navbar li {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #4e5e57;
+    }
 
-.navbar ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-display: none;
-}
+    a:hover {
+        color: #048243;
+        text-decoration: underline;
+    }
 
-.navbar li {
-padding: 8px 16px;
-text-decoration: none;
-font-size: 16px;
-color: #4e5e57;
-}
+    a {
+        color: #32BF84;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #82A67D;
+    }

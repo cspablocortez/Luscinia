@@ -1,3 +1,12 @@
+// Change images in website
+
+function updateDisplay(e) {
+  console.log(e);
+  for (const child of e.children) {
+    console.log(child.innerHTML);
+  }
+}
+
 function toggleMenu() {
     var menu = document.getElementById("menuItems");
     if (menu.style.display === "block") {
@@ -7,34 +16,15 @@ function toggleMenu() {
     }
   }
 
-  document.addEventListener('DOMContentLoaded', function() {
-
-    // Pause/Play functionality
-    var playButton = document.querySelector('.control-play');
-    var album = document.querySelector('.album');
-
-    playButton.addEventListener('click', function() {
-        var musicPlayerContainer = document.querySelector('.music-player-container');
-        musicPlayerContainer.classList.toggle('is-playing');
-    });
-
-});
+const imageURLs = ["https://www.vinylmeplease.com/cdn/shop/products/everything_i_know_about_love_store.jpg?q=60&auto=format&w=926",
+    "https://squarecatvinyl.com/cdn/shop/files/Screenshot_2023-08-11_at_11.17.55_AM_022b6110_thumbnail_1024.webp?v=1696525110"
+];
 
 
-const imageCoverURLs =
-    [
-        "https://i.pinimg.com/736x/73/32/52/7332527b2baa4785959b1b8e2ba41dce.jpg",
-        "https://logodix.com/logo/45400.jpg",
-        "https://steamuserimages-a.akamaihd.net/ugc/793135280575664837/0BBE59C999EBF567C86CB78D0452F243C9E389FD/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
-        "https://picsum.photos/200",
-        "https://picsum.photos/200"
-    ]
-
-const imageCover = document.querySelector('.album-art');
+const albumImg = document.getElementById('albumImg');
 let idx = 0;
-
-function nextItem() {
+function changeAlbumImage() {
     console.log(idx);
-    idx = (idx + 1) % imageCoverURLs.length;
-    imageCover.style.backgroundImage = `url(${imageCoverURLs[idx]})`;
+    idx = (idx + 1) % imageURLs.length;
+    albumImg.src = imageURLs[idx];
 }

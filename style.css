@@ -32,18 +32,45 @@ h1 {
 }
 
 #menuBtn {
-    border: none;
-    background: none;
-    width: 4rem;
-    height: 4rem;
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    font-size: 2rem;
-    color: #4e5e57;
+	background: none;
+	border: none;
+	width: 4rem;
+	height: 4rem;
+	top: 15px;
+	position: absolute;
+	left: 15px;
+	font-size: 2rem;
+	color: #4e5e57;
 }
 
 #menuBtn:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
+#arrowBtn {
+	background: none;
+	border: none;
+	z-index: 2;
+	position: fixed;
+	right: 18rem;
+	font-size: 3rem;
+	color: #4e5e57;
+}
+
+#arrowBtn:hover {
+	cursor: pointer;
+}
+
+#leftBtn {
+	background: none;
+	border: none;
+	z-index: 2;
+	position: fixed;
+	left: 18rem;
+	font-size: 3rem;
+	color: #4e5e57;
+}
+
+#leftBtn:hover {
+	cursor: pointer;
+}

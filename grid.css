@@ -1,0 +1,11 @@
+.paper {
+    height: 60px;
+    width: 60px;
+    background-color: #fcfff0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.paper img {
+    height: 100%;
+    width: 100%;
+}

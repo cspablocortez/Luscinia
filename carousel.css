@@ -1,0 +1,39 @@
+#arrowBtn {
+	background: none;
+	border: none;
+	z-index: 2;
+	position: fixed;
+	right: 18rem;
+	font-size: 3rem;
+	color: #4e5e57;
+}
+
+#arrowBtn:hover {
+	cursor: pointer;
+}
+
+#leftBtn {
+	background: none;
+	border: none;
+	z-index: 2;
+	position: fixed;
+	left: 18rem;
+	font-size: 3rem;
+	color: #4e5e57;
+}
+
+#leftBtn:hover {
+	cursor: pointer;
+}
+
+.paper {
+    height: 400px;
+    width: 400px;
+    background-color: #fcfff0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.paper img {
+    height: 100%;
+    width: 100%;
+}
