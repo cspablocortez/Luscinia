@@ -1,0 +1,10 @@
+Grid (4 x 3)
+data.json (populate it all)
+
+For next time:
+
+Approve / Reject the grid design
+
+Push the data.json to Github
+
+Design template (ChatGPT generated)

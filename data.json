@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "id": 1,
+            "artist": "",
+          	"albumTitle": "",
+            "year": 2024,
+            "label": "",
+            "imageURL": ""
+        },
+        {
+            "id": 2,
+            "artist": "",
+          	"albumTitle": "",
+            "year": 2024,
+            "label": "",
+            "imageURL": ""
+        },
+        {
+            "id": 3,
+            "artist": "",
+          	"albumTitle": "",
+            "year": 2024,
+            "label": "",
+            "imageURL": ""
+        }
+    ]
+}

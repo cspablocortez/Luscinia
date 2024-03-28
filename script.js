@@ -1,3 +1,14 @@
+let emptyArray = []
+let numArray = [1, 2, 3, 4, 5]
+let stringArray = ['One', 'Two', 'Three']
+
+
+
+
+
+
+
+
 // Change images in website
 
 function updateDisplay(e) {
